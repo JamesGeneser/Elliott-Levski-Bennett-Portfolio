@@ -12,17 +12,15 @@ import AboutMe from "./pages/About-Me";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <Navigation />
-        <Routes>
-          {" "}
-          <Route exact path="" element={Home} />
-          <Route path="/video" element={Video} />
-          <Route path="/live-performance" element={LivePerformance} />
-          <Route path="/art-design" element={ArtDesign} />
-          <Route path="/about-me" element={AboutMe} />
-        </Routes>
-      </BrowserRouter>
+      <Navigation />
+      <Routes>
+        {" "}
+        <Route exact path="" element={<Home />} />
+        <Route path="/video" element={<Video />} />
+        <Route path="/live-performance" element={<LivePerformance />} />
+        <Route path="/art-design" element={<ArtDesign />} />
+        <Route path="/about-me" element={<AboutMe />} />
+      </Routes>
     </div>
   );
 }

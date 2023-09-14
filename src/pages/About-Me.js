@@ -1,5 +1,9 @@
 import React from "react";
 
 export default function AboutMe() {
-  return <div>About-Me</div>;
+  return (
+    <div>
+      <h2>About Me</h2>
+    </div>
+  );
 }
