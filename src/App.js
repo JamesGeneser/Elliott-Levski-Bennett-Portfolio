@@ -16,11 +16,11 @@ function App() {
         <Navigation />
         <Routes>
           {" "}
-          <Route exact path="/" component={Home} />
-          <Route exact path="/video" component={Video} />
-          <Route exact path="/live-performance" component={LivePerformance} />
-          <Route exact path="/art-design" component={ArtDesign} />
-          <Route exact path="/about-me" component={AboutMe} />
+          <Route exact path="" element={Home} />
+          <Route path="/video" element={Video} />
+          <Route path="/live-performance" element={LivePerformance} />
+          <Route path="/art-design" element={ArtDesign} />
+          <Route path="/about-me" element={AboutMe} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -2,3 +2,6 @@
   text-align: center;
 }
 
+.sunset{
+  background-image: url("../src/media/sunset-background.png");
+}
