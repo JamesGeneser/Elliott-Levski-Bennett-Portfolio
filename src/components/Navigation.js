@@ -6,12 +6,12 @@ import { Contact } from "./Contact";
 export default function Navigation() {
   return (
     <>
-      <Navbar className="Navigation">
-        <Container fluid>
-          {" "}
+      <Navbar expand="sm" className="navbar ">
+        {" "}
+        <Container fluid className=" d-flex justify-content-between">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto navbar">
+          <Navbar.Collapse id="basic-navbar-nav" className="">
+            <Nav className="nav me-auto navbar ">
               {" "}
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/video">Video</Nav.Link>

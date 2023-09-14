@@ -5,3 +5,21 @@
 .sunset{
   background-image: url("../src/media/sunset-background.png");
 }
+
+body{
+  background-image: url("../src/media/sunset-background.png")
+  
+  ;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.Navigation{
+
+
+}
+
+.nav{
+  min-width: 60%;
+}
