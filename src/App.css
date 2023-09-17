@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .sunset{
   background-image: url("../src/media/sunset-background.png");
@@ -16,17 +14,103 @@ body{
 }
 
 /* Navigation */
-.Navigation{
-
-
+.navbar {
+  color: white !important;
+}
+.nav{
+  color: white !important;
 }
 
-.nav{
-  min-width: 60%;
+.navbar-nav{
+  color: white !important;
+}
+
+  /* Home */
+  .introduction-container{
+    font-family: 'Caveat', cursive;
+    color: white;
+  }
+
+  .contact-information-card{
+    color: white !important;
+    background-color: #484d39 !important;
+
+  }
+
+
+
+
+@media all and (min-width: 1201px) and (max-width: 1800px) {
+
+/* Navigation */
+.navbar {
+  color: white
 }
 
   /* Home */
 
-.contact-information{
+  .introduction{
+ 
+  }
+
+
+  .title{
+    font-size: 100px;
+  }
+
+.contact-information-card{
+max-width: 30%;
 
 }
+
+.card-title{
+  font-size: 30px !important;
+}
+
+.travel-information{
+font-size: 12px;
+}
+
+.about-me-card{
+max-width: 40%;
+}
+
+.profile-home{
+  max-width: 100%;
+  max-height: 50%;
+}
+}
+
+
+
+
+
+@media all and (min-width: 780px) and (max-width: 1200px) {
+
+/* Navigation */
+.navbar {
+  color: white
+}
+
+  /* Home */
+
+  .introduction{
+    font-family: 'Caveat', cursive;
+    color: white;
+  }
+
+.contact-information{
+max-width: 60%;
+}
+.profile-home{
+  max-width: 10%
+}
+
+
+
+
+}
+
+@media  all and (min-width: 360px) and (max-width: 779px) {}
+
+@media  all and (max-width: 359px) {}
