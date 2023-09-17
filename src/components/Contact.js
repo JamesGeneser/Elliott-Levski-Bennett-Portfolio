@@ -18,10 +18,7 @@ export const Contact = () => {
         <Modal.Header closeButton>
           <Modal.Title className="text-dark">Contact Me</Modal.Title>
         </Modal.Header>
-        <Modal.Body className="contact-info">
-          <p>email: jamesgeneser@gmail.com</p>
-          <p>phone: (319)-538-3074</p>
-        </Modal.Body>
+        <Modal.Body className="contact-info"></Modal.Body>
         <Modal.Footer></Modal.Footer>
       </Modal>
     </div>
