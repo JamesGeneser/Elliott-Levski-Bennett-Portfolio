@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Elliott-Levski-Bennett-Portfolio/static/css/main.d2529fea.css",
+    "main.js": "/Elliott-Levski-Bennett-Portfolio/static/js/main.5d3ed4a7.js",
+    "static/js/787.e66f5931.chunk.js": "/Elliott-Levski-Bennett-Portfolio/static/js/787.e66f5931.chunk.js",
+    "static/media/sunset-background.png": "/Elliott-Levski-Bennett-Portfolio/static/media/sunset-background.4beec6349633468a73e8.png",
+    "static/media/elliott-icecream.jpeg": "/Elliott-Levski-Bennett-Portfolio/static/media/elliott-icecream.f4cbeb037cc715adbe31.jpeg",
+    "index.html": "/Elliott-Levski-Bennett-Portfolio/index.html",
+    "main.d2529fea.css.map": "/Elliott-Levski-Bennett-Portfolio/static/css/main.d2529fea.css.map",
+    "main.5d3ed4a7.js.map": "/Elliott-Levski-Bennett-Portfolio/static/js/main.5d3ed4a7.js.map",
+    "787.e66f5931.chunk.js.map": "/Elliott-Levski-Bennett-Portfolio/static/js/787.e66f5931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2529fea.css",
+    "static/js/main.5d3ed4a7.js"
+  ]
+}
