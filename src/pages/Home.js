@@ -48,6 +48,11 @@ export default function Home() {
           </Card.Body>
         </Card>
       </Container>
+      <Container className="reel-container">
+        <Card>
+          <Card.Title>Reel 2023</Card.Title>
+        </Card>
+      </Container>
     </div>
   );
 }

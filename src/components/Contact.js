@@ -10,7 +10,7 @@ export const Contact = () => {
 
   return (
     <div>
-      <Button className="nav-item navElement" variant="" onClick={handleShow}>
+      <Button className="nav-link navElement" variant="" onClick={handleShow}>
         Contact Me
       </Button>
 
