@@ -6,7 +6,7 @@ import { Contact } from "./Contact";
 export default function Navigation() {
   return (
     <>
-      <Navbar expand="sm" className=" ">
+      <Navbar expand="md" className=" ">
         {" "}
         <Container fluid className=" d-flex justify-content-between">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

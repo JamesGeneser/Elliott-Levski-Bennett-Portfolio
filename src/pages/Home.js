@@ -16,7 +16,7 @@ export default function Home() {
       </Container>
       <Container fluid className="contact-container d-flex flex-row-reverse">
         <Card className="contact-information-card rounded m-4 me-5 p-3 pe-4 ">
-          <Card.Title className="ms-2 mb-0">Contact Me</Card.Title>
+          <Card.Title className="ms-2 mb-0">Contact Information</Card.Title>
           <hr />
           <Card.Body className="mt-0 pt-0 contact-information">
             <Row>

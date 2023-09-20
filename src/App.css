@@ -18,16 +18,14 @@ body{
 .nav-link{
   margin: 1%;
   color: white !important;
+  text-align: left  !important;
 }
 
 /* .contact{
 
   color: white !important;
 } */
-.contact-modal{
-  color: #484d39 !important;
-  /* background-color: #484d39 !important; */
-}
+
 
   /* Home */
   .introduction-container{
@@ -77,10 +75,7 @@ max-width: 40%;
 
 }
 
-.profile-home{
-  max-width: 100%;
 
-}
 }
 
 
@@ -90,7 +85,9 @@ max-width: 40%;
 @media all and (min-width: 780px) and (max-width: 1200px) {
 
 /* Navigation */
-
+.nav{
+ width: 100%;
+}
 
   /* Home */
 
@@ -108,8 +105,8 @@ max-width: 40%;
 .travel-information{
   font-size: 12px;
 }
-.profile-home{
-  max-width: 10%
+.about-me-card{
+  max-width: 60%;
 }
 
 
@@ -118,6 +115,17 @@ max-width: 40%;
 }
 
 @media  all and (min-width: 360px) and (max-width: 779px) {
+
+  /* Navigation */
+.nav{
+  width: 100%;
+ }
+ /* .nav-link{
+  font-size: 13px !important;
+ } */
+
+
+   /* Home */
   .contact-information-card{
    max-width: 80%;
     }
@@ -130,6 +138,19 @@ max-width: 40%;
 }
 
 @media  all and (max-width: 359px) {
+/* Navigation */
+
+.nav{
+  align-items: left !important;
+}
+
+/* .nav-link{
+  font-size: 16px;
+  align-items: left;
+ } */
+
+
+
   .contact-information-card{
     max-width: 100%;
     }
