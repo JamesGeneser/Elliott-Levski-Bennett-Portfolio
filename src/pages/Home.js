@@ -15,10 +15,10 @@ export default function Home() {
         <h3 className="sub-title ms-5 ps-5">Journeyman Filmmaker</h3>
       </Container>
       <Container fluid className="contact-container d-flex flex-row-reverse">
-        <Card className="contact-information-card m-4 me-5 p-3 pe-5 ">
+        <Card className="contact-information-card rounded m-4 me-5 p-3 pe-4 ">
           <Card.Title className="ms-2 mb-0">Contact Me</Card.Title>
           <hr />
-          <Card.Body className="mt-0 pt-0">
+          <Card.Body className="mt-0 pt-0 contact-information">
             <Row>
               <Col xs={4}>E-mail:</Col>
               <Col xs={8}>elliott-bennett@email.com</Col>
@@ -34,10 +34,10 @@ export default function Home() {
         </Card>
       </Container>
       <Container className="about-me-container">
-        <Card className="about-me-card">
+        <Card className="about-me-card m-2">
           <Card.Img
             className="profile-home"
-            src={require("../media/elliott-icecream.jpeg")}
+            src={require("../media/elliott-profile.jpg")}
           ></Card.Img>
           <Card.Body>
             <h5>Filmmaker. Performer. Storyteller.</h5>

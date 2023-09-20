@@ -9,8 +9,8 @@ export const Contact = () => {
   const handleShow = () => setShow(true);
 
   return (
-    <div>
-      <Button className="nav-link navElement" variant="" onClick={handleShow}>
+    <>
+      <Button className="nav-link" variant="" onClick={handleShow}>
         Contact Me
       </Button>
 
@@ -21,6 +21,6 @@ export const Contact = () => {
         <Modal.Body className="contact-info"></Modal.Body>
         <Modal.Footer></Modal.Footer>
       </Modal>
-    </div>
+    </>
   );
 };
