@@ -20,11 +20,14 @@ body{
   color: white !important;
 }
 
-.contact{
+/* .contact{
 
   color: white !important;
+} */
+.contact-modal{
+  color: #484d39 !important;
+  /* background-color: #484d39 !important; */
 }
-
 
   /* Home */
   .introduction-container{
