@@ -4,6 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import { Contact } from "./Contact";
 
 export default function Navigation() {
+  console.log(window.location.href);
   return (
     <>
       <Navbar expand="md" className=" ">
@@ -17,7 +18,7 @@ export default function Navigation() {
               <Nav.Link href="/video">Video</Nav.Link>
               <Nav.Link href="/live-performance">Live Performance</Nav.Link>
               <Nav.Link href="/art-design">Art/Design</Nav.Link>
-              <Nav.Link href="/about-me">About Me</Nav.Link>
+              <Nav.Link href=" /about-me">About Me</Nav.Link>
               <Contact />
             </Nav>
           </Navbar.Collapse>

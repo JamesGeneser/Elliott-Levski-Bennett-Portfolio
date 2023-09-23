@@ -37,7 +37,7 @@ export default function Home() {
         <Card className="about-me-card m-2">
           <Card.Img
             className="profile-home"
-            src={require("../media/elliott-profile.jpg")}
+            src={require("../media/elliott-chaplin.jpg")}
           ></Card.Img>
           <Card.Body>
             <h5>Filmmaker. Performer. Storyteller.</h5>

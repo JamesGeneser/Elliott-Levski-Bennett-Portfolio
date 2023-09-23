@@ -15,27 +15,11 @@ function App() {
       <Navigation />
       <Routes>
         {" "}
-        <Route
-          exact
-          path="Elliott-Levski-Bennett-Portfolio/"
-          element={<Home />}
-        />
-        <Route
-          path="Elliott-Levski-Bennett-Portfolio/video"
-          element={<Video />}
-        />
-        <Route
-          path="Elliott-Levski-Bennett-Portfolio/live-performance"
-          element={<LivePerformance />}
-        />
-        <Route
-          path="Elliott-Levski-Bennett-Portfolio/art-design"
-          element={<ArtDesign />}
-        />
-        <Route
-          path="Elliott-Levski-Bennett-Portfolio/about-me"
-          element={<AboutMe />}
-        />
+        <Route exact path="/" element={<Home />} />
+        <Route path="/video" element={<Video />} />
+        <Route path="/live-performance" element={<LivePerformance />} />
+        <Route path="/art-design" element={<ArtDesign />} />
+        <Route path="/about-me" element={<AboutMe />} />
       </Routes>
     </div>
   );
