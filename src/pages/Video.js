@@ -7,15 +7,15 @@ export default function Video() {
   const talkingItOutSrc = "https://www.youtube.com/watch?v=n_wZz6aXJBA";
   return (
     <div>
-      <Container>
-        <Row>
-          <h2>Parks</h2>
+      <Container fluid className="">
+        <Row className="m-2">
+          <h2>Park</h2>
         </Row>
         <Row>
-          <Col>
+          <Col className="">
             <iframe
-              width="560"
-              height="315"
+              //   width="560"
+              //   height="315"
               src="https://www.youtube.com/embed/n_wZz6aXJBA?si=MzTnqJ-fuFHPcuzj"
               title="YouTube video player"
               frameborder="0"
@@ -25,8 +25,8 @@ export default function Video() {
           </Col>
           <Col>
             <iframe
-              width="560"
-              height="315"
+              //   width="560"
+              //   height="315"
               src="https://www.youtube.com/embed/Dtj8QrMJT08?si=AMSrn5PM6V6B9Qwe"
               title="YouTube video player"
               frameborder="0"
@@ -36,8 +36,8 @@ export default function Video() {
           </Col>
           <Col>
             <iframe
-              width="560"
-              height="315"
+              //   width="560"
+              //   height="315"
               src="https://www.youtube.com/embed/YXKaUYFbOjY?si=AYruiRTlsGg168bA"
               title="YouTube video player"
               frameborder="0"
@@ -47,7 +47,7 @@ export default function Video() {
           </Col>
         </Row>
       </Container>
-      <Container>
+      <Container fluid className="m-2 p-2">
         <Row>
           <h2>Travel Vlogs</h2>
         </Row>
@@ -88,7 +88,7 @@ export default function Video() {
           </Col>
         </Row>
       </Container>
-      <Container>
+      <Container fluid className="m-2 p-2">
         <Row>
           <h2>Music Documentary</h2>
         </Row>

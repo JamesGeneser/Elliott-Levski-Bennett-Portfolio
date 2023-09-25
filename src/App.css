@@ -3,13 +3,21 @@
 body{
   background-image: url("../src/media/sunset-background.png")
   ;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-
+  font-family: 'Caveat', cursive !important;
+  color: white !important;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
 
 }
+
+.video{
+  width: 100%;
+  height:inherit;
+  /* height: 100%; */
+}
+
+
 
 /* Navigation */
 .nav{
@@ -26,6 +34,13 @@ body{
 
 
   /* Home */
+.title{
+  font-size: 100px;
+}
+.sub-title{
+  font-size: 40px;
+}
+
   .introduction-container{
     font-family: 'Caveat', cursive;
     color: white;
@@ -38,7 +53,19 @@ body{
 
   }
 
+  .about-me-card{
+ 
+    }
 
+
+.reel-title{
+  font-size: 40px;
+}
+
+.reel{
+  width: 560px ;
+  height: 315px;
+}
 
 
 @media all and (min-width: 1201px) and (max-width: 1800px) {
@@ -68,10 +95,10 @@ max-width: 60%;
 font-size: 12px;
 }
 
-.about-me-card{
+/* .about-me-card{
 max-width: 40%;
 
-}
+} */
 
 
 }
