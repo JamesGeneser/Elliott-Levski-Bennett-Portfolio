@@ -9,10 +9,10 @@ export default function Navigation() {
     <>
       <Navbar expand="md" className=" ">
         {" "}
-        <Container fluid className=" d-flex justify-content-between">
+        <Container fluid className="">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className="">
-            <Nav className="nav me-auto ">
+            <Nav className="nav me-auto d-flex justify-content-around">
               {" "}
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/video">Video</Nav.Link>

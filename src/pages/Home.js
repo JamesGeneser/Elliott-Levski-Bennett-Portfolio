@@ -66,7 +66,7 @@ export default function Home() {
           </Col>
           <Col xs="12" lg="5" xl="5" xxl="5" className="p-5 ">
             {" "}
-            <h4 className="text-center reel-title">My Reel</h4>
+            <h4 className=" ms-5 reel-title">My Reel</h4>
             <iframe
               className="reel"
               src="https://www.youtube.com/embed/prCBBqRO95s?si=WzyCMdjfo-nRcytb"
