@@ -15,7 +15,7 @@ export default function Home() {
         <h3 className="sub-title ms-5 ps-5">Journeyman Filmmaker</h3>
       </Container>
       <Container fluid className="contact-container d-flex flex-row-reverse">
-        <Col xl="4">
+        <Col lg="5" xl="5" xxl="4">
           {" "}
           <Card className="contact-information-card rounded m-4 me-5 p-3 pe-4 ">
             <Card.Title className="ms-2 mb-0 contact-information-title">
@@ -24,18 +24,18 @@ export default function Home() {
             <hr className="mt-1" />
             <Card.Body className="mt-0 pt-0 contact-information">
               <Row>
-                <Col xs={4} lg="2">
+                <Col xs={4} lg="4" xl="4">
                   E-mail:
                 </Col>
-                <Col xs={8} lg="10">
+                <Col xs={8} lg="8" xl="8">
                   elliott-bennett@email.com
                 </Col>
               </Row>
               <Row>
-                <Col xs={4} lg="2">
+                <Col xs={4} lg="4" xl="4">
                   Phone:
                 </Col>
-                <Col xs={8} lg="10">
+                <Col xs={8} lg="8" xl="8">
                   (xxx)-xxx-xxxx
                 </Col>
               </Row>
@@ -50,7 +50,11 @@ export default function Home() {
         <Row>
           <Col xs="12" lg="6" xl="6" xxl="6" className="">
             {" "}
-            <Card className="about-me-card ">
+            <img
+              className="profile-home"
+              src={require("../media/elliott-chaplin.jpg")}
+            />
+            {/* <Card className="about-me-card ">
               <Card.Img
                 className="profile-home"
                 src={require("../media/elliott-chaplin.jpg")}
@@ -61,8 +65,8 @@ export default function Home() {
                   Passionately curious about the world, its history, and the
                   people in it.
                 </p> */}
-              </Card.Body>
-            </Card>
+            {/* </Card.Body> */}
+            {/* </Card>  */}
           </Col>
           <Col xs="12" lg="5" xl="5" xxl="5" className="p-5 ">
             {" "}
@@ -77,11 +81,6 @@ export default function Home() {
             ></iframe>
           </Col>
         </Row>
-      </Container>
-      <Container className="reel-container">
-        <Card>
-          <Card.Title>Reel 2023</Card.Title>
-        </Card>
       </Container>
     </div>
   );

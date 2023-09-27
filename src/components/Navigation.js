@@ -2,6 +2,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import { Contact } from "./Contact";
+import Brand from "./Brand";
 
 export default function Navigation() {
   console.log(window.location.href);
@@ -22,6 +23,8 @@ export default function Navigation() {
               <Contact />
             </Nav>
           </Navbar.Collapse>
+
+          <Brand />
         </Container>
       </Navbar>
     </>
