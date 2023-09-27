@@ -63,12 +63,12 @@ body{
 }
 
 .reel{
-  width: 560px ;
-  height: 315px;
+ width: 100%;
+ height: 56%;
 }
 
 
-@media all and (min-width: 1201px) and (max-width: 1800px) {
+@media all and (min-width: 1201px) and (max-width: 4000px) {
 
 
 
@@ -83,16 +83,18 @@ body{
   }
 
 .contact-information-card{
-max-width: 60%;
+/* max-width: 60%; */
 
 }
-
-.card-title{
-  font-size: 30px !important;
+.contact-information-title{
+  font-size: 60px !important;
+}
+.contact-information{
+  font-size: 30px;
 }
 
 .travel-information{
-font-size: 12px;
+font-size: 24px;
 }
 
 /* .about-me-card{

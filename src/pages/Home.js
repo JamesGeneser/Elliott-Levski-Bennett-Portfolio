@@ -15,19 +15,29 @@ export default function Home() {
         <h3 className="sub-title ms-5 ps-5">Journeyman Filmmaker</h3>
       </Container>
       <Container fluid className="contact-container d-flex flex-row-reverse">
-        <Col xl="6">
+        <Col xl="4">
           {" "}
           <Card className="contact-information-card rounded m-4 me-5 p-3 pe-4 ">
-            <Card.Title className="ms-2 mb-0">Contact Information</Card.Title>
-            <hr />
+            <Card.Title className="ms-2 mb-0 contact-information-title">
+              Contact Information
+            </Card.Title>
+            <hr className="mt-1" />
             <Card.Body className="mt-0 pt-0 contact-information">
               <Row>
-                <Col xs={4}>E-mail:</Col>
-                <Col xs={8}>elliott-bennett@email.com</Col>
+                <Col xs={4} lg="2">
+                  E-mail:
+                </Col>
+                <Col xs={8} lg="10">
+                  elliott-bennett@email.com
+                </Col>
               </Row>
               <Row>
-                <Col xs={4}>Phone:</Col>
-                <Col xs={8}>(xxx)-xxx-xxxx</Col>
+                <Col xs={4} lg="2">
+                  Phone:
+                </Col>
+                <Col xs={8} lg="10">
+                  (xxx)-xxx-xxxx
+                </Col>
               </Row>
               <Row className="travel-information">
                 <Col> Pheonix-based. Open to travel in America and Canada.</Col>
@@ -54,7 +64,7 @@ export default function Home() {
               </Card.Body>
             </Card>
           </Col>
-          <Col xs="12" lg="6" xl="6" xxl="6" className="p-2">
+          <Col xs="12" lg="5" xl="5" xxl="5" className="p-5 ">
             {" "}
             <h4 className="text-center reel-title">My Reel</h4>
             <iframe
