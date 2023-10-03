@@ -15,13 +15,13 @@ export default function Home() {
         <h3 className="sub-title ms-5 ps-5">Journeyman Filmmaker</h3>
       </Container>
       <Container fluid className="contact-container d-flex flex-row-reverse">
-        <Col lg="5" xl="5" xxl="4">
+        <Col md="6" lg="5" xl="5" xxl="4">
           {" "}
-          <Card className="contact-information-card rounded m-4 me-5 p-3 pe-4 ">
+          <Card className="contact-information-card rounded m-4 me-5 ps-0 p-3 pe-4 ">
             <Card.Title className="ms-2 mb-0 contact-information-title">
               Contact Information
             </Card.Title>
-            <hr className="mt-1" />
+            <hr className="mt-1 ms-1" />
             <Card.Body className="mt-0 pt-0 contact-information">
               <Row>
                 <Col xs={4} lg="4" xl="4">
@@ -50,25 +50,28 @@ export default function Home() {
         <Row>
           <Col xs="12" lg="6" xl="6" xxl="6" className="">
             {" "}
-            <img
+            {/* <img
               className="profile-home"
               src={require("../media/elliott-chaplin.jpg")}
             />
-            {/* <Card className="about-me-card ">
+            <p>
+              Passionately curious about the world, its history, and the people
+              in it. */}
+            <Card className="about-me-card ">
               <Card.Img
                 className="profile-home"
                 src={require("../media/elliott-chaplin.jpg")}
-              ></Card.Img>
-              <Card.Body>
-                {/* <h5>Filmmaker. Performer. Storyteller.</h5>
-                <p>
+              />
+              <Card.ImgOverlay className="d-flex flex-direction-column">
+                <Card.Text className="about-me-text">
+                  {" "}
                   Passionately curious about the world, its history, and the
                   people in it.
-                </p> */}
-            {/* </Card.Body> */}
-            {/* </Card>  */}
+                </Card.Text>
+              </Card.ImgOverlay>
+            </Card>
           </Col>
-          <Col xs="12" lg="5" xl="5" xxl="5" className="p-5 ">
+          <Col xs="12" sm="12" md="12" lg="5" xl="5" xxl="5" className="">
             {" "}
             <h4 className=" ms-5 reel-title">My Reel</h4>
             <iframe
@@ -78,6 +81,7 @@ export default function Home() {
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
+              border-radius="100px"
             ></iframe>
           </Col>
         </Row>

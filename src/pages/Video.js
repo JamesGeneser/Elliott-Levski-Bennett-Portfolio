@@ -61,9 +61,8 @@ export default function Video() {
               height="315"
               src="https://www.youtube.com/embed/-MdYdaUWM50?si=tA3Czxs5xYmN_i79"
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           </Col>
           <Col className="mb-2 mt-1">

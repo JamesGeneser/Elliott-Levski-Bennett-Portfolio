@@ -36,7 +36,7 @@ export default function Navigation() {
   //   }
   return (
     <>
-      <Navbar expand="lg" className=" ">
+      <Navbar expand="lg" className="navbar-light " variant="light">
         {" "}
         <Container fluid className="">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

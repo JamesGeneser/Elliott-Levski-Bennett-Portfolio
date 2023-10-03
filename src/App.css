@@ -11,10 +11,10 @@ body{
 
 }
 
-.video{
+.reel{
   width: 100%;
-  height:inherit;
-  /* height: 100%; */
+
+  height: 100%;
 }
 
 
@@ -29,7 +29,9 @@ body{
   text-align: left  !important;
 }
 
+.navbar-toggler-icon {
 
+}
 
 
   /* Home */
@@ -45,15 +47,23 @@ body{
     background-color: #484d39 !important;
 
   }
+  .profile-home{
+    width: 100%;
+    border-radius: 10%;
+  }
+.about-me-text{
+  font-size: 35px;
+  
+}
 
+  
 .reel{
  width: 100%;
  height: 56%;
+
 }
 
-.profile-home{
-  width: 100%;
-}
+
 
 /* HEADER */
 .header-title{
@@ -114,9 +124,8 @@ font-size: 16px;
 
 /* VIDEO */
 
-.video{
-  width: 100%;
-  height: 56%;
+.reel{
+
 }
 
 }
@@ -156,11 +165,19 @@ font-size: 16px;
 } */
 .profile-home{
   width: 100%;
+  padding: 2%;
 }
 
-/* HEADER */
-.page-title{
-  font-size: 50px;
+.reel-title{
+  font-size: 55px;
+  padding-top: 2%;
+}
+
+.reel{
+  padding: 5%;
+  padding-top: 0%;
+  width: 100%;
+  height: 140%;
 }
 
 }
@@ -178,6 +195,11 @@ margin: 1%;
 
 
    /* Home */
+ .title{
+  font-size: 50px;
+ }
+
+
   .contact-information-card{
    max-width: 80%;
     }
@@ -209,4 +231,14 @@ margin: 1%;
     .travel-information{
       font-size: 10px;
     }
+
+
+
+
+    .reel{
+      padding: 5%;
+      width: 100%;
+      height: 140%;
+    }
 }
+
