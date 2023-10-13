@@ -36,6 +36,11 @@ body{
 
   /* Home */
 
+
+  .title{
+    width: 40vw;
+  }
+
   .introduction-container{
     font-family: 'Caveat', cursive;
     color: black
@@ -53,7 +58,7 @@ body{
   }
 .about-me-text{
   font-size: 35px;
-  
+
 }
 
   

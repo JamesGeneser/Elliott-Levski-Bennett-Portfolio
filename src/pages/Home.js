@@ -11,7 +11,11 @@ export default function Home() {
         fluid
         className="introduction-container mt-4 mb-4 d-flex flex-column justify-content-start"
       >
-        <h1 className="title ms-3 ps-4">Elliott Levski Bennett</h1>
+        <img
+          src={require("../media/handwriting/Elliott-Bennett.png")}
+          className="title"
+        />
+
         <h3 className="sub-title ms-5 ps-5">Journeyman Filmmaker</h3>
       </Container>
       <Container fluid className="contact-container d-flex flex-row-reverse">
@@ -50,20 +54,13 @@ export default function Home() {
         <Row>
           <Col xs="12" lg="6" xl="6" xxl="6" className="">
             {" "}
-            {/* <img
-              className="profile-home"
-              src={require("../media/elliott-chaplin.jpg")}
-            />
-            <p>
-              Passionately curious about the world, its history, and the people
-              in it. */}
             <Card className="about-me-card ">
               <Card.Img
                 className="profile-home"
                 src={require("../media/elliott-chaplin.jpg")}
               />
-              <Card.ImgOverlay className="d-flex flex-direction-column">
-                <Card.Text className="about-me-text">
+              <Card.ImgOverlay className="d-flex flex-direction-column-reverse">
+                <Card.Text className="about-me-text ">
                   {" "}
                   Passionately curious about the world, its history, and the
                   people in it.
