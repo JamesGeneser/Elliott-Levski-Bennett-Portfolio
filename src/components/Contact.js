@@ -13,7 +13,10 @@ export const Contact = () => {
   return (
     <>
       <Button className="nav-link" variant="" onClick={handleShow}>
-        Contact Me
+        <img
+          src={require("../media/handwriting/Contact.png")}
+          className="nav-writing"
+        />
       </Button>
 
       <Modal

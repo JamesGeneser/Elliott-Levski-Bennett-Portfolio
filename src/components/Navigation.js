@@ -9,31 +9,7 @@ import { useEffect } from "react";
 
 export default function Navigation() {
   const location = useLocation();
-  //   console.log(location.pathname);
 
-  //   const [home, setHome] = useState();
-
-  //   useEffect(() => {
-  //     const isHome = (location.pathname = "/") ? true : false;
-  //     setHome((isHome = true ? (home = true) : (home = false)));
-  //   });
-
-  //   if (location.pathname == "/") {
-  //     setHome(home === true);
-  //   } else {
-  //     setHome(home === false);
-  //   }
-  //   let isHome = (location.pathname = "/" ? true : false);
-  //   console.log(isHome);
-
-  //   function homePage() {
-  //     const home = (location = "/" ? true : false);
-  //   }
-
-  //   setHome();
-  //   {
-  //     home = location = "/" ? true : false;
-  //   }
   return (
     <>
       <Navbar expand="lg" className="navbar-light " variant="light">
@@ -43,11 +19,42 @@ export default function Navigation() {
           <Navbar.Collapse id="basic-navbar-nav" className="">
             <Nav className="nav me-auto d-flex justify-content-around">
               {" "}
-              {location.pathname != "/" && <Nav.Link href="/">Home</Nav.Link>}
-              <Nav.Link href="/video">Video</Nav.Link>
-              <Nav.Link href="/live-performance">Live Performance</Nav.Link>
-              <Nav.Link href="/art-design">Art/Design</Nav.Link>
-              <Nav.Link href=" /about-me">About Me</Nav.Link>
+              {location.pathname != "/" && (
+                <Nav.Link href="/">
+                  {" "}
+                  <img
+                    src={require("../media/handwriting/Home.png")}
+                    className="nav-writing"
+                  />
+                </Nav.Link>
+              )}
+              <Nav.Link href="/video">
+                <img
+                  src={require("../media/handwriting/Video.png")}
+                  className="nav-writing"
+                />
+              </Nav.Link>
+              <Nav.Link href="/live-performance">
+                {" "}
+                <img
+                  src={require("../media/handwriting/Live.png")}
+                  className="nav-writing"
+                />
+              </Nav.Link>
+              <Nav.Link href="/art-design">
+                {" "}
+                <img
+                  src={require("../media/handwriting/Art.png")}
+                  className="nav-writing"
+                />
+              </Nav.Link>
+              {/* <Nav.Link href=" /about-me">
+                {" "}
+                <img
+                  src={require("../media/handwriting/About-Me.png")}
+                  className="nav-writing about-me"
+                />
+              </Nav.Link> */}
               <Contact />
             </Nav>
           </Navbar.Collapse>

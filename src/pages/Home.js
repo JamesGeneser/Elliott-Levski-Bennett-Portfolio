@@ -13,23 +13,31 @@ export default function Home() {
       >
         <img
           src={require("../media/handwriting/Elliott-Bennett.png")}
-          className="title"
+          className="title writing"
         />
-
-        <h3 className="sub-title ms-5 ps-5">Journeyman Filmmaker</h3>
+        <img
+          src={require("../media/handwriting/Journeyman-Filmmaker.png")}
+          className="sub-title  ms-5 ps-5 writing"
+        />
       </Container>
       <Container fluid className="contact-container d-flex flex-row-reverse">
         <Col md="6" lg="5" xl="5" xxl="4">
           {" "}
           <Card className="contact-information-card rounded m-4 me-5 ps-0 p-3 pe-4 ">
             <Card.Title className="ms-2 mb-0 contact-information-title">
-              Contact Information
+              <img
+                src={require("../media/handwriting/Contact-Info.png")}
+                className="writing"
+              />
             </Card.Title>
             <hr className="mt-1 ms-1" />
             <Card.Body className="mt-0 pt-0 contact-information">
               <Row>
                 <Col xs={4} lg="4" xl="4">
-                  E-mail:
+                  <img
+                    src={require("../media/handwriting/Email.png")}
+                    className="writing"
+                  />
                 </Col>
                 <Col xs={8} lg="8" xl="8">
                   elliott-bennett@email.com

@@ -21,21 +21,25 @@ body{
 
 /* Navigation */
 
+.nav-writing{
+  width:50% ;
+}
+
 
 .nav-link{
   font-family: 'Caveat', cursive !important;
-
+  max-width:20% ;
   color: white !important;
   text-align: left  !important;
 }
 
-.navbar-toggler-icon {
-
-}
 
 
   /* Home */
 
+  .writing{
+    max-width: 50%;
+  }
 
   .title{
     width: 40vw;
@@ -68,18 +72,7 @@ body{
 
 }
 
-
-
-/* HEADER */
-.header-title{
-color: black;
-}
-
-.page-title{
-font-weight: bold;
-  color: black;
-}
-
+/* ////////////////////////////////////////////////////////////// */
 @media all and (min-width: 1201px) and (max-width: 4000px) {
 
 /* Navigation */
@@ -94,17 +87,19 @@ font-weight: bold;
 
 
   /* Home */
-
+.writing{
+  width: 58%;
+}
   .title{
-    font-size: 90px;
+
   }
 .sub-title{
-  font-size: 40px;
+ width: 40%;
 }
 
-.contact-information-title{
+/* .contact-information-title{
   font-size: 40px !important;
-}
+} */
 .contact-information{
   font-size: 20px;
 }
