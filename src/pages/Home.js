@@ -9,7 +9,7 @@ export default function Home() {
     <div>
       <Container
         fluid
-        className="introduction-container mt-4 mb-4 d-flex flex-column justify-content-start"
+        className="introduction-container mt-4 mb-4  d-flex flex-column justify-content-start"
       >
         <img
           src={require("../media/handwriting/Elliott-Bennett.png")}
@@ -23,8 +23,8 @@ export default function Home() {
       <Container fluid className="contact-container d-flex flex-row-reverse">
         <Col md="6" lg="5" xl="5" xxl="4">
           {" "}
-          <Card className="contact-information-card rounded m-4 me-5 ps-0 p-3 pe-4 ">
-            <Card.Title className="ms-2 mb-0 contact-information-title">
+          <Card className="contact-information-card rounded m-4 me-5 ps-0 p-4 pe-4 ">
+            <Card.Title className="ms-3 mb-1 contact-information-title">
               <img
                 src={require("../media/handwriting/Contact-Info.png")}
                 className="writing"
@@ -62,13 +62,13 @@ export default function Home() {
         <Row>
           <Col xs="12" lg="6" xl="6" xxl="6" className="">
             {" "}
-            <Card className="about-me-card ">
+            <Card className="about-me-card mb-5">
               <Card.Img
                 className="profile-home"
                 src={require("../media/elliott-chaplin.jpg")}
               />
-              <Card.ImgOverlay className="d-flex flex-direction-column-reverse">
-                <Card.Text className="about-me-text ">
+              <Card.ImgOverlay className="d-flex flex-column justify-content-end p-0">
+                <Card.Text className="about-me-text p-3 ">
                   {" "}
                   Passionately curious about the world, its history, and the
                   people in it.
@@ -78,7 +78,10 @@ export default function Home() {
           </Col>
           <Col xs="12" sm="12" md="12" lg="5" xl="5" xxl="5" className="">
             {" "}
-            <h4 className=" ms-5 reel-title">My Reel</h4>
+            <img
+              src={require("../media/handwriting/Reel.png")}
+              className="writing"
+            />
             <iframe
               className="reel"
               src="https://www.youtube.com/embed/prCBBqRO95s?si=WzyCMdjfo-nRcytb"
