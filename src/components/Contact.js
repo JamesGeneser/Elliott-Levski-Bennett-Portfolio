@@ -25,18 +25,35 @@ export const Contact = () => {
         onHide={handleClose}
         className="contact-modal"
       >
-        <Modal.Header closeButton>
-          <Modal.Title className="text-dark">Contact Me</Modal.Title>
+        <Modal.Header className="" closeButton>
+          <Modal.Title className="text-dark">
+            {" "}
+            <img
+              className="contact-modal-title"
+              src={require("../media/handwriting/Contact.png")}
+            />
+          </Modal.Title>
         </Modal.Header>
         <Modal.Body className="contact-information-modal">
           {" "}
           <Row>
-            <Col xs={4}>E-mail:</Col>
-            <Col xs={8}>elliott-bennett@email.com</Col>
+            <Col xs={4}>
+              <img
+                className="contact-modal-type"
+                src={require("../media/handwriting/Email.png")}
+              />
+            </Col>
+            <Col className="text-dark" xs={8}>
+              elliott-bennett@email.com
+            </Col>
           </Row>
           <Row>
-            <Col xs={4}>Phone:</Col>
-            <Col xs={8}>(xxx)-xxx-xxxx</Col>
+            <Col className="text-dark" xs={4}>
+              Phone:
+            </Col>
+            <Col className="text-dark" xs={8}>
+              (xxx)-xxx-xxxx
+            </Col>
           </Row>
         </Modal.Body>
       </Modal>

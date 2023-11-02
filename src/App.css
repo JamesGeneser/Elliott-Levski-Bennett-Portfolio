@@ -71,6 +71,12 @@ body{
  height: 56%;
 
 }
+.contact-modal-title{
+  width: 40%;
+}
+.contact-modal-type{
+width: 50%;
+}
 
 /* ////////////////////////////////////////////////////////////// */
 @media all and (min-width: 1201px) and (max-width: 4000px) {
