@@ -11,10 +11,9 @@ body{
 
 }
 
-.reel{
-  width: 100%;
-
-  height: 100%;
+.reel-title{
+/* width: 10%;
+height: 10%; */
 }
 
 
@@ -33,7 +32,13 @@ body{
   text-align: left  !important;
 }
 
-
+.about-me{
+  width: 100%;
+}
+.nav-contact{
+  width: 90%;
+  padding-left: 20%;
+}
 
   /* Home */
 
@@ -59,12 +64,9 @@ body{
   .profile-home{
     width: 100%;
     border-radius: 10%;
+  opacity: .7;
   }
-.about-me-text{
-  font-size: 35px;
- background-color: white;
 
-}
 
   
 .reel{

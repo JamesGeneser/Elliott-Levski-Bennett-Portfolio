@@ -48,13 +48,13 @@ export default function Navigation() {
                   className="nav-writing"
                 />
               </Nav.Link>
-              {/* <Nav.Link href=" /about-me">
+              <Nav.Link href=" /about-me">
                 {" "}
                 <img
                   src={require("../media/handwriting/About-Me.png")}
                   className="nav-writing about-me"
                 />
-              </Nav.Link> */}
+              </Nav.Link>
               <Contact />
             </Nav>
           </Navbar.Collapse>

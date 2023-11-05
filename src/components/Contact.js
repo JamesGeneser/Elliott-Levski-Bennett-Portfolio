@@ -15,7 +15,7 @@ export const Contact = () => {
       <Button className="nav-link" variant="" onClick={handleShow}>
         <img
           src={require("../media/handwriting/Contact.png")}
-          className="nav-writing"
+          className="nav-writing nav-contact"
         />
       </Button>
 

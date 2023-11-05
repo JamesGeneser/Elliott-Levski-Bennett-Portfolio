@@ -60,7 +60,7 @@ export default function Home() {
       </Container>
       <Container fluid className="about-me-container">
         <Row>
-          <Col xs="12" lg="6" xl="6" xxl="6" className="">
+          <Col xs="12" md="12" lg="5" xl="6" xxl="6" className="">
             {" "}
             <Card className="about-me-card mb-5">
               <Card.Img
@@ -68,20 +68,32 @@ export default function Home() {
                 src={require("../media/elliott-chaplin.jpg")}
               />
               <Card.ImgOverlay className="d-flex flex-column justify-content-end p-0">
-                <Card.Text className="about-me-text p-3 ">
-                  {" "}
-                  Passionately curious about the world, its history, and the
-                  people in it.
-                </Card.Text>
+                {" "}
+                <Card.Img
+                  className="intro-text "
+                  src={require("../media/handwriting/Intro-Text.png")}
+                />
               </Card.ImgOverlay>
             </Card>
           </Col>
-          <Col xs="12" sm="12" md="12" lg="5" xl="5" xxl="5" className="">
+
+          <Col
+            xs="12"
+            sm="12"
+            md="12"
+            lg="7"
+            xl="5"
+            xxl="5"
+            className="p-2 pb-4"
+          >
             {" "}
-            <img
-              src={require("../media/handwriting/Reel.png")}
-              className="writing"
-            />
+            <Row sm="4" lg="4">
+              {" "}
+              <img
+                src={require("../media/handwriting/Reel.png")}
+                className="ms-5 writing reel-title"
+              />
+            </Row>
             <iframe
               className="reel"
               src="https://www.youtube.com/embed/prCBBqRO95s?si=WzyCMdjfo-nRcytb"
