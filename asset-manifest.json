@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Elliott-Levski-Bennett-Portfolio/static/css/main.132a610e.css",
-    "main.js": "/Elliott-Levski-Bennett-Portfolio/static/js/main.8991f254.js",
+    "main.js": "/Elliott-Levski-Bennett-Portfolio/static/js/main.4de4ae17.js",
     "static/js/787.e66f5931.chunk.js": "/Elliott-Levski-Bennett-Portfolio/static/js/787.e66f5931.chunk.js",
     "static/media/sunset-background.png": "/Elliott-Levski-Bennett-Portfolio/static/media/sunset-background.4beec6349633468a73e8.png",
     "static/media/elliott-chaplin.jpg": "/Elliott-Levski-Bennett-Portfolio/static/media/elliott-chaplin.3857bde4d68cbce27ed6.jpg",
@@ -19,11 +19,11 @@
     "static/media/Art.png": "/Elliott-Levski-Bennett-Portfolio/static/media/Art.c8d1880f40cec6cc43c4.png",
     "index.html": "/Elliott-Levski-Bennett-Portfolio/index.html",
     "main.132a610e.css.map": "/Elliott-Levski-Bennett-Portfolio/static/css/main.132a610e.css.map",
-    "main.8991f254.js.map": "/Elliott-Levski-Bennett-Portfolio/static/js/main.8991f254.js.map",
+    "main.4de4ae17.js.map": "/Elliott-Levski-Bennett-Portfolio/static/js/main.4de4ae17.js.map",
     "787.e66f5931.chunk.js.map": "/Elliott-Levski-Bennett-Portfolio/static/js/787.e66f5931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.132a610e.css",
-    "static/js/main.8991f254.js"
+    "static/js/main.4de4ae17.js"
   ]
 }
