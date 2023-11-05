@@ -1,17 +1,29 @@
 {
   "files": {
-    "main.css": "/Elliott-Levski-Bennett-Portfolio/static/css/main.11baae62.css",
-    "main.js": "/Elliott-Levski-Bennett-Portfolio/static/js/main.05994d3a.js",
+    "main.css": "/Elliott-Levski-Bennett-Portfolio/static/css/main.132a610e.css",
+    "main.js": "/Elliott-Levski-Bennett-Portfolio/static/js/main.8991f254.js",
     "static/js/787.e66f5931.chunk.js": "/Elliott-Levski-Bennett-Portfolio/static/js/787.e66f5931.chunk.js",
     "static/media/sunset-background.png": "/Elliott-Levski-Bennett-Portfolio/static/media/sunset-background.4beec6349633468a73e8.png",
     "static/media/elliott-chaplin.jpg": "/Elliott-Levski-Bennett-Portfolio/static/media/elliott-chaplin.3857bde4d68cbce27ed6.jpg",
+    "static/media/Home.png": "/Elliott-Levski-Bennett-Portfolio/static/media/Home.2bc83720a64216cc86ac.png",
+    "static/media/Intro-Text.png": "/Elliott-Levski-Bennett-Portfolio/static/media/Intro-Text.10019851f3ec7c6dc204.png",
+    "static/media/Video.png": "/Elliott-Levski-Bennett-Portfolio/static/media/Video.29d1e432114575e90b60.png",
+    "static/media/Contact.png": "/Elliott-Levski-Bennett-Portfolio/static/media/Contact.a7e590c64ad3cac4210a.png",
+    "static/media/Email.png": "/Elliott-Levski-Bennett-Portfolio/static/media/Email.173be3648c00e7e92086.png",
+    "static/media/Reel.png": "/Elliott-Levski-Bennett-Portfolio/static/media/Reel.83fa31c784f33be42cfe.png",
+    "static/media/Contact-Info.png": "/Elliott-Levski-Bennett-Portfolio/static/media/Contact-Info.50f69c2b1f4b2212fcb1.png",
+    "static/media/Elliott-Bennett.png": "/Elliott-Levski-Bennett-Portfolio/static/media/Elliott-Bennett.d45e218161069ac6698a.png",
+    "static/media/Live.png": "/Elliott-Levski-Bennett-Portfolio/static/media/Live.2d0fb78cdf145f65097e.png",
+    "static/media/About-Me.png": "/Elliott-Levski-Bennett-Portfolio/static/media/About-Me.1b15fb55792ff25adcad.png",
+    "static/media/Journeyman-Filmmaker.png": "/Elliott-Levski-Bennett-Portfolio/static/media/Journeyman-Filmmaker.f41efa0affc536eb3332.png",
+    "static/media/Art.png": "/Elliott-Levski-Bennett-Portfolio/static/media/Art.c8d1880f40cec6cc43c4.png",
     "index.html": "/Elliott-Levski-Bennett-Portfolio/index.html",
-    "main.11baae62.css.map": "/Elliott-Levski-Bennett-Portfolio/static/css/main.11baae62.css.map",
-    "main.05994d3a.js.map": "/Elliott-Levski-Bennett-Portfolio/static/js/main.05994d3a.js.map",
+    "main.132a610e.css.map": "/Elliott-Levski-Bennett-Portfolio/static/css/main.132a610e.css.map",
+    "main.8991f254.js.map": "/Elliott-Levski-Bennett-Portfolio/static/js/main.8991f254.js.map",
     "787.e66f5931.chunk.js.map": "/Elliott-Levski-Bennett-Portfolio/static/js/787.e66f5931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.11baae62.css",
-    "static/js/main.05994d3a.js"
+    "static/css/main.132a610e.css",
+    "static/js/main.8991f254.js"
   ]
 }
