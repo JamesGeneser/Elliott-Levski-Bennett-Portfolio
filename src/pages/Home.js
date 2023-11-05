@@ -87,7 +87,7 @@ export default function Home() {
             className="p-2 pb-4"
           >
             {" "}
-            <Row sm="4" lg="4">
+            <Row xs="4" sm="4" lg="4">
               {" "}
               <img
                 src={require("../media/handwriting/Reel.png")}
