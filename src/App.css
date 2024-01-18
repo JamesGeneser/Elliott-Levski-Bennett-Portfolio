@@ -11,10 +11,7 @@ body{
 
 }
 
-.reel-title{
-/* width: 10%;
-height: 10%; */
-}
+
 
 
 
@@ -32,23 +29,38 @@ height: 10%; */
   text-align: left  !important;
 }
 
-.about-me{
-  width: 100%;
-}
+
 .nav-contact{
   width: 90%;
   padding-left: 20%;
 }
 
+
+.collapse-box{
+  border-radius: 50%;
+  width: 12vw;
+}
+
+
   /* Home */
 
-  .writing{
-    max-width: 50%;
-  }
+
+
+
+.elliott-chaplin{
+  border-radius: 50%;
+  width: 100%;
+}
+
 
   .title{
-    width: 40vw;
+    width: 60vw;
   }
+
+.sub-title{
+  width: 30vw;
+}
+
 
   .introduction-container{
     font-family: 'Caveat', cursive;
@@ -68,12 +80,19 @@ height: 10%; */
   }
 
 
-  
-.reel{
- width: 100%;
- height: 56%;
 
+
+
+.reel-title{
+  width: 20vw
 }
+
+.reel{
+  width: 90vw;
+  height: 55vw
+}
+  
+
 .contact-modal-title{
   width: 40%;
 }
@@ -96,19 +115,9 @@ width: 50%;
 
 
   /* Home */
-.writing{
-  width: 58%;
-}
-  .title{
 
-  }
-.sub-title{
- width: 40%;
-}
 
-/* .contact-information-title{
-  font-size: 40px !important;
-} */
+
 .contact-information{
   font-size: 20px;
 }
@@ -117,9 +126,7 @@ width: 50%;
 font-size: 16px;
 }
 
-.reel-title{
-  font-size: 90px;
-}
+
 /* HEADER */
 
 .header-title{
@@ -133,9 +140,7 @@ font-size: 16px;
 
 /* VIDEO */
 
-.reel{
 
-}
 
 }
 
@@ -155,12 +160,12 @@ font-size: 16px;
 
   /* Home */
 
-.title{
+/* .title{
   font-size: 60px;
 }
 .sub-title{
   width: 30%;
-}
+} */
 
 
 .contact-information-title{
@@ -172,25 +177,20 @@ font-size: 16px;
 .travel-information{
   font-size: 14px;
 }
-/* .about-me-card{
-  max-width: 60%;
-} */
+
 .profile-home{
   width: 100%;
   padding: 2%;
 }
 
-.reel-title{
-  font-size: 55px;
-  padding-top: 2%;
-}
 
-.reel{
+
+/* .reel{
   padding: 5%;
   padding-top: 0%;
   width: 100%;
   height: 140%;
-}
+} */
 
 }
 
@@ -207,9 +207,7 @@ margin: 1%;
 
 
    /* Home */
- .title{
-  font-size: 50px;
- }
+
 
 
   .contact-information-card{
@@ -246,11 +244,11 @@ margin: 1%;
 
 
 
-
+/* 
     .reel{
       padding: 5%;
       width: 100%;
       height: 140%;
-    }
+    } */
 }
 

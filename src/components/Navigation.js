@@ -4,8 +4,6 @@ import Navbar from "react-bootstrap/Navbar";
 import { Contact } from "./Contact";
 import Brand from "./Brand";
 import { useLocation } from "react-router-dom";
-import { useState } from "react";
-import { useEffect } from "react";
 
 export default function Navigation() {
   const location = useLocation();
@@ -15,9 +13,12 @@ export default function Navigation() {
       <Navbar expand="lg" className="navbar-light " variant="light">
         {" "}
         <Container fluid className="">
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav" className="">
-            <Nav className="nav me-auto d-flex justify-content-around">
+          <Navbar.Toggle
+            aria-controls="basic-navbar-nav"
+            className="m-3 p-3 collapse-box "
+          />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav pullRight className="nav me-auto">
               {" "}
               {location.pathname != "/" && (
                 <Nav.Link href="/">
